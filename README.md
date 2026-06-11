@@ -23,6 +23,8 @@ A decoupled Signal + Risk engine for 30-day KSE-100 return forecasting using Mam
 
 ## Overview
 
+This project applies time series forecasting to a decade of KSE-100 historical data to generate 30-day price projections for the Pakistan Stock Exchange's benchmark equity index. A decoupled two-engine architecture separates mean trajectory prediction (Signal Engine) from uncertainty quantification (Risk Engine), providing both a directional forecast and a principled measure of downside risk to support long-term investment decisions.
+
 ![Overview](screenshots/overview.png)
 
 ---
